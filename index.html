@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>print msk</title>
+    <link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__schedule-print">
+            <div class="header__container-schedule">
+                <p class="header__schedule">График работы в предновогодние и праздничные дни: 0.12 — с 10:00 до 19:00 |
+                    31.12 — с 11:00 до 15:00 | 01.01 — 10.01 выходные | c 11.01 по обычному графику, с 10:00 до 20:00
+                </p>
+            </div>
+            <div class="header__top">
+                <img src="img/burger-icon.png" alt="Меню" class="header__burger">
+                <img src="img/logo.jpg" class="header__logo" alt="Логотип PrintMSK">
+                <img src="img/mobile-telicon.png" alt="Позвонить нам" class="header__tel">
+                <div class="header__block-address">
+                    <div class="header__address">
+                        <img src="img/address-icon.png" class="header__address-icon" alt="Адрес">
+                        <div class="header__address-text">г. Москва, ул. Шухова, д. 14</div>
+                    </div>
+                    <a href="#" class="header__map">посмотреть на карте</a>
+                </div>
+                <div class="header__block-working">
+                    <div class="header__working-hours">
+                        <img src="img/calendar.jpg" class="header__workinghours-icon" alt="График работ">
+                        <div class="header__workinghours-text">Пн-Пт 10:00 - 20:00</div>
+                    </div>
+                    <a href="#" class="header__consultation">Заказать консультацию</a>
+                </div>
+                <div class="header__block-mail">
+                    <div class="header__mail">
+                        <img src="img/mail.jpg" class="header__mail-icon" alt="Написать нам">
+                        <div class="header__mail-text">print.msk@mail.ru</div>
+                    </div>
+                    <a href="#" class="header__write">Написать нам</a>
+                </div>
+                <div class="header__block-ring">
+                    <div class="header__ring">
+                        <svg width="14" height="14" class="header__ring-icon" viewBox="0 0 14 14" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M4.42839 7.04271C4.97054 8.15109 5.86899 9.04545 6.97983 9.58255C7.0611 9.62107 7.15101 9.63775 7.24069 9.63097C7.33037 9.62418 7.41674 9.59416 7.4913 9.54386L9.12693 8.45318C9.19927 8.40494 9.2825 8.37551 9.36908 8.36756C9.45566 8.3596 9.54286 8.37338 9.62278 8.40763L12.6827 9.71904C12.7867 9.76319 12.8735 9.83994 12.93 9.9377C12.9866 10.0355 13.0098 10.149 12.9962 10.2611C12.8995 11.0179 12.5303 11.7135 11.9576 12.2177C11.3849 12.7218 10.6481 13 9.88517 13C7.52868 13 5.2687 12.0639 3.60241 10.3976C1.93611 8.7313 1 6.47132 1 4.11483C1.00004 3.35186 1.27818 2.61507 1.78234 2.04241C2.2865 1.46975 2.98211 1.10049 3.73892 1.00377C3.85104 0.990205 3.96453 1.01344 4.0623 1.06998C4.16006 1.12652 4.2368 1.21331 4.28096 1.31725L5.59352 4.37989C5.62747 4.4591 5.6413 4.54549 5.63379 4.63134C5.62627 4.7172 5.59764 4.79987 5.55044 4.87198L4.46355 6.53271C4.41408 6.60742 4.38484 6.69368 4.37868 6.78307C4.37251 6.87246 4.38964 6.96192 4.42839 7.04271Z"
+                                fill="white" stroke="#004DE1" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                        <div class="header__ring-text">8 (499) 391-54-41</div>
+                    </div>
+                    <div class="header__ring-text header__ring-tel">8 (905) 765-94-25</div>
+                </div>
+                <input type="button" value="Отправить заявку" class="header__button">
+            </div>
+            <div class="header__bottom">
+                <ul class="header__bottom-ul">
+                    <li class="header__bottom-link header__bottom-aboutus">О НАС</li>
+                    <li class="header__bottom-link header__bottom-order">КАК СДЕЛАТЬ ЗАКАЗ</li>
+                    <li class="header__bottom-link header__bottom-layout">ТРЕБОВАНИЯ К МАКЕТАМ</li>
+                    <li class="header__bottom-link header__bottom-delivery">ОПЛАТА И ДОСТАВКА</li>
+                    <li class="header__bottom-link header__bottom-contacts">КОНТАКТЫ</li>
+                    <li class="header__bottom-liinput">
+                        <div class="header__search">
+                            <input type="text" class="header__bottom-input" placeholder="Поиск">
+                            <svg class="header__svg-glass" width="23" height="24" viewBox="0 0 23 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M21.5625 20.6742L16.4153 15.3275C17.7387 13.7562 18.4638 11.7791 18.4638 9.72099C18.4638 4.91231 14.5466 1 9.73192 1C4.91721 1 1 4.91231 1 9.72099C1 14.5297 4.91721 18.442 9.73192 18.442C11.5394 18.442 13.2619 17.8975 14.7345 16.8639L19.9209 22.2512C20.1377 22.476 20.4293 22.6 20.7417 22.6C21.0375 22.6 21.318 22.4874 21.531 22.2826C21.9836 21.8477 21.998 21.1265 21.5625 20.6742ZM9.73192 3.27504C13.2907 3.27504 16.1859 6.16662 16.1859 9.72099C16.1859 13.2754 13.2907 16.1669 9.73192 16.1669C6.17309 16.1669 3.27789 13.2754 3.27789 9.72099C3.27789 6.16662 6.17309 3.27504 9.73192 3.27504Z"
+                                    fill="white" stroke="#004DE1" />
+                            </svg>
+
+                        </div>
+                    </li>
+                    <li class="header__li-card">
+                        <svg width="25" height="25" class="header__card" viewBox="0 0 25 25" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M8.64479 15.8798L6.90481 8.92353L6.84264 8.675H7.09883H21.9009H22.1448L22.097 8.91419L21.3285 12.7603L21.3037 12.8844L21.1809 12.9152L12.2564 15.1466C12.2562 15.1466 12.256 15.1467 12.2557 15.1467C11.9983 15.2134 11.7776 15.379 11.6417 15.6076C11.5057 15.8364 11.4657 16.1097 11.5303 16.3679C11.595 16.6261 11.7592 16.8483 11.987 16.9859C12.2147 17.1235 12.4874 17.1655 12.7459 17.1029C12.7461 17.1028 12.7463 17.1028 12.7465 17.1027L22.4116 14.6864L8.64479 15.8798ZM8.64479 15.8798C8.70315 16.1135 8.67596 16.3603 8.56816 16.5756L8.56811 16.5757L7.35978 18.9923L7.35948 18.993C7.31145 19.0898 7.24814 19.1783 7.17197 19.2551L7.07273 19.355L7.13344 19.4822C7.48057 20.2089 7.56047 21.0348 7.3591 21.8146C7.15774 22.5944 6.68799 23.2784 6.03239 23.7462C5.3768 24.2141 4.57729 24.4359 3.77436 24.3728C2.97143 24.3096 2.21643 23.9655 1.64202 23.401C1.06762 22.8364 0.710551 22.0874 0.63356 21.2857C0.556569 20.484 0.76458 19.6808 1.22104 19.0172C1.67751 18.3536 2.35322 17.8721 3.12947 17.6574C3.90571 17.4426 4.73282 17.5082 5.46547 17.8427L5.74854 17.972V17.7068L6.5648 16.0743L6.59788 16.0081L6.57995 15.9363L3.29328 2.78484L3.25542 2.63333H3.09925H1.62508C1.35765 2.63333 1.10118 2.5271 0.912082 2.338C0.722983 2.1489 0.616748 1.89243 0.616748 1.625C0.616748 1.35757 0.722983 1.1011 0.912082 0.912C1.10118 0.722901 1.35765 0.616666 1.62508 0.616666H4.04174M8.64479 15.8798L4.04174 0.616666M4.04174 0.616666C4.04174 0.616666 4.04175 0.616666 4.04175 0.616666C4.26653 0.616673 4.48487 0.69179 4.66208 0.830085C4.83929 0.968381 4.9652 1.16193 5.01983 1.37997M4.04174 0.616666L5.01983 1.37997M5.01983 1.37997L6.30063 6.50681L6.33848 6.65833H6.49467H23.375C23.5241 6.65842 23.6713 6.69159 23.8061 6.75544C23.9409 6.81929 24.0598 6.91224 24.1543 7.02758C24.2488 7.14293 24.3166 7.2778 24.3527 7.42249C24.3888 7.56717 24.3924 7.71807 24.3631 7.8643L23.1548 13.9059L23.1548 13.906C23.1174 14.0931 23.0278 14.2657 22.8962 14.4038C22.7647 14.5419 22.5968 14.6399 22.4119 14.6864L5.01983 1.37997ZM4.04175 22.3667C4.41526 22.3667 4.77348 22.2183 5.03759 21.9542C5.3017 21.6901 5.45008 21.3318 5.45008 20.9583C5.45008 20.5848 5.3017 20.2266 5.03759 19.9625C4.77348 19.6984 4.41526 19.55 4.04175 19.55C3.66823 19.55 3.31002 19.6984 3.04591 19.9625C2.78179 20.2266 2.63341 20.5848 2.63341 20.9583C2.63341 21.3318 2.78179 21.6901 3.04591 21.9542C3.31002 22.2183 3.66824 22.3667 4.04175 22.3667ZM20.9584 24.3833C20.05 24.3833 19.1789 24.0225 18.5366 23.3802C17.8943 22.7379 17.5334 21.8667 17.5334 20.9583C17.5334 20.05 17.8943 19.1788 18.5366 18.5365C19.1789 17.8942 20.05 17.5333 20.9584 17.5333C21.8668 17.5333 22.7379 17.8942 23.3803 18.5365C24.0226 19.1788 24.3834 20.05 24.3834 20.9583C24.3834 21.8667 24.0226 22.7379 23.3803 23.3802C22.7379 24.0225 21.8668 24.3833 20.9584 24.3833ZM20.9584 22.3667C21.3319 22.3667 21.6901 22.2183 21.9543 21.9542C22.2184 21.6901 22.3667 21.3318 22.3667 20.9583C22.3667 20.5848 22.2184 20.2266 21.9543 19.9625C21.6901 19.6984 21.3319 19.55 20.9584 19.55C20.5849 19.55 20.2267 19.6984 19.9626 19.9625C19.6985 20.2266 19.5501 20.5848 19.5501 20.9583C19.5501 21.3318 19.6985 21.6901 19.9626 21.9542C20.2267 22.2183 20.5849 22.3667 20.9584 22.3667Z"
+                                fill="#004DE1" stroke="#E9EFF1" stroke-width="0.4" />
+                        </svg>
+
+
+                        <div class="header__card-title">
+                            Корзина
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="print">
+            <nav class="print__nav">
+                <ul class="print__left-menu">
+                    <li class="print__li">
+                        <div class="print__menu-label">Визитки
+                            <svg width="7" height="12" viewBox="0 0 7 12" fill="none" class="print__svg-arrow"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L6 6L1 11" stroke="#004DE1" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </li>
+                    <li class="print__li">
+                        <div class="print__menu-label">Изготовление печатей
+                            <svg width="7" height="12" viewBox="0 0 7 12" fill="none" class="print__svg-arrow"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L6 6L1 11" stroke="#004DE1" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </li>
+                    <li class="print__li">
+                        <div class="print__menu-label">Рекламная полиграфия
+                            <svg width="7" height="12" viewBox="0 0 7 12" fill="none" class="print__svg-arrow"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L6 6L1 11" stroke="#004DE1" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </li>
+                    <li class="print__li">
+                        <div class="print__menu-label">Магниты
+                            <svg width="7" height="12" viewBox="0 0 7 12" fill="none" class="print__svg-arrow"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L6 6L1 11" stroke="#004DE1" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </li>
+                    <li class="print__li">
+                        <div class="print__menu-label">Календари
+                            <svg width="7" height="12" viewBox="0 0 7 12" fill="none" class="print__svg-arrow"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L6 6L1 11" stroke="#004DE1" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </li>
+                    <li class="print__li">
+                        <div class="print__menu-label">Сувенирная продукция
+                            <svg width="7" height="12" viewBox="0 0 7 12" fill="none" class="print__svg-arrow"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L6 6L1 11" stroke="#004DE1" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </li>
+                    <li class="print__li">
+                        <div class="print__menu-label">Фотосувениры
+                            <svg width="7" height="12" viewBox="0 0 7 12" fill="none" class="print__svg-arrow"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L6 6L1 11" stroke="#004DE1" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </li>
+                    <li class="print__li">
+                        <div class="print__menu-label">Широкоформатная печать
+                            <svg width="7" height="12" viewBox="0 0 7 12" fill="none" class="print__svg-arrow"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L6 6L1 11" stroke="#004DE1" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </li>
+                    <li class="print__li">
+                        <div class="print__menu-label">Послепечатные работы
+                            <svg width="7" height="12" viewBox="0 0 7 12" fill="none" class="print__svg-arrow"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L6 6L1 11" stroke="#004DE1" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </li>
+                    <li class="print__li">
+                        <div class="print__menu-label">Дизайн и верстка
+                            <svg width="7" height="12" viewBox="0 0 7 12" fill="none" class="print__svg-arrow"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L6 6L1 11" stroke="#004DE1" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="print__right">
+                <div class="print__printing">
+                    <div class="print__printing-wrapper">
+                        <div class="print__printing-label">
+                            <div class="print__label-printing">БЫСТРАЯ ПЕЧАТЬ</div> НА ШАБОЛОВКЕ
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="print__february23">
+                        <div class="print__text-february23">
+                            <h3 class="print__text-feb23">Подарки к&nbsp;23&nbsp;февраля с&nbsp;Вашим&nbsp;фото</h3>
+                            <input type="button" value="Подробнее" class="print__feb23-button">
+                        </div>
+
+                        <div class="print__print-february23"></div>
+                    </div>
+                    <div class="print__february23">
+                        <div class="print__text-withfoto">
+                            <h3 class="print__text-feb23">Подарки к&nbsp;23&nbsp;февраля с&nbsp;Вашим&nbsp;фото</h3>
+                            <input type="button" value="Подробнее" class="print__feb23-button">
+                        </div>
+
+                        <div class="print__print-withfoto"></div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="swiper3">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="print__printing">
+                            <div class="print__printing-wrapper">
+                                <div class="print__printing-label">
+                                    <div class="print__label-printing">БЫСТРАЯ ПЕЧАТЬ</div> НА ШАБОЛОВКЕ
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="print__february23">
+                            <div class="print__text-february23">
+                                <h3 class="print__text-feb23">Подарки к&nbsp;23&nbsp;февраля с&nbsp;Вашим&nbsp;фото</h3>
+                                <input type="button" value="Подробнее" class="print__feb23-button">
+                            </div>
+
+                            <div class="print__print-february23"></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+
+                        <div class="swiper-slide">
+
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </div>
+        </div>
+        
+        <section class="advantages">
+            <div class="advantages__container">
+                <h2 class="advantages__title">НАШИ ПРЕИМУЩЕСТВА</h2>
+
+                <div class="swiperadv">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="advantages__cards">
+                                <div class="advantages__cart">
+                                    <div class="advantages__cart-wrapper">
+                                        <img src="img/advantages1.png" class="advantages__quality"
+                                            alt="Наши преимущества">
+                                    </div>
+                                    <h5 class="advantages__quality-title">Качество печати</h5>
+                                    <div class="advantages__quality-desc"> Работаем на современном полиграфическом
+                                        оборудовании
+                                    </div>
+                                </div>
+                                <div class="advantages__cart advantages__cart-production">
+                                    <div class="advantages__cart-wrapper">
+                                        <img src="img/advantages2.png" class="advantages__quality"
+                                            alt="Срочное изготовление">
+                                    </div>
+                                    <h5 class="advantages__production">Срочное изготовление</h5>
+                                    <div class="advantages__production-desc"> Печатаем заказы в максимально короткие
+                                        сроки</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="advantages__cards">
+                                <div class="advantages__cart">
+                                    <div class="advantages__cart-wrapper">
+                                        <img src="img/advantages3.png" class="advantages__quality"
+                                            alt="Наши преимущества">
+                                    </div>
+                                    <h5 class="advantages__quality-title">Удобное расположение</h5>
+                                    <div class="advantages__quality-desc"> Наш офис находится рядом с метро
+                                        Шаболовская, в
+                                    </div>
+                                </div>
+                                <div class="advantages__cart advantages__cart-production">
+                                    <div class="advantages__cart-wrapper">
+                                        <img src="img/advantages4.png" class="advantages__quality"
+                                            alt="Срочное изготовление">
+                                    </div>
+                                    <h5 class="advantages__production">Команда профессионалов</h5>
+                                    <div class="advantages__production-desc">В нашей типографии работают только
+                                        высококлассные
+                                        специалисты</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="advantages__cards">
+                                <div class="advantages__cart">
+                                    <div class="advantages__cart-wrapper">
+                                        <img src="img/advantages5.png" class="advantages__quality" alt="Наша продукция">
+                                    </div>
+                                    <h5 class="advantages__production">Большой выбор продукции</h5>
+                                    <div class="advantages__production-desc">От сувенирной продукции до деловой
+                                        полиграфии</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="swiper-pagination advantages__pagination"></div>
+
+                </div>
+                <div class="advantages__carts">
+                    <div class="advantages__cart">
+                        <div class="advantages__cart-wrapper">
+                            <img src="img/advantages1.png" class="advantages__quality" alt="Наши преимущества">
+                        </div>
+                        <h5 class="advantages__quality-title">Качество печати</h5>
+                        <div class="advantages__quality-desc"> Работаем на современном полиграфическом оборудовании
+                        </div>
+                    </div>
+                    <div class="advantages__cart advantages__cart-production">
+                        <div class="advantages__cart-wrapper">
+                            <img src="img/advantages2.png" class="advantages__quality" alt="Срочное изготовление">
+                        </div>
+                        <h5 class="advantages__production">Срочное изготовление</h5>
+                        <div class="advantages__production-desc"> Печатаем заказы в максимально короткие сроки</div>
+                    </div>
+                    <div class="advantages__cart">
+                        <div class="advantages__cart-wrapper">
+                            <img src="img/advantages3.png" class="advantages__quality" alt="Наш офис">
+                        </div>
+                        <h5 class="advantages__production">Удобное расположение </h5>
+                        <div class="advantages__production-desc">Наш офис находится рядом с метро Шаболовская, в
+                            пределах ТТК</div>
+                    </div>
+                </div>
+
+
+                <div class="advantages__carts-still">
+                    <div class="advantages__cart advantages__cart-production">
+                        <div class="advantages__cart-wrapper">
+                            <img src="img/advantages4.png" class="advantages__quality" alt="Наша команда">
+                        </div>
+                        <h5 class="advantages__production">Команда профессионалов</h5>
+                        <div class="advantages__production-desc">В нашей типографии работают только высококлассные
+                            специалисты</div>
+                    </div>
+                    <div class="advantages__cart">
+                        <div class="advantages__cart-wrapper">
+                            <img src="img/advantages5.png" class="advantages__quality" alt="Наша продукция">
+                        </div>
+                        <h5 class="advantages__production">Большой выбор продукции</h5>
+                        <div class="advantages__production-desc">От сувенирной продукции до деловой полиграфии</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product__container">
+                <h2 class="product__title">ПОПУЛЯРНЫЕ ТОВАРЫ</h2>
+
+
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide product__slide">
+                            <div class="product__cart">
+                                <div class="product__logo"></div>
+                                <p class="product__label">Визитные карточки</p>
+                                <p class="product__desc">Touche cover</p>
+                                <p class="product__price">От 100 руб</p>
+                                <input type="button" value="Заказать" class="product__button">
+                            </div>
+                            <div class="product__cart">
+                                <div class="product__flyer"></div>
+                                <p class="product__label">Печать листовок</p>
+                                <p class="product__desc">Плотностью 170 г/м2</p>
+                                <p class="product__price">От 100 руб</p>
+                                <input type="button" value="Заказать" class="product__button">
+
+                            </div>
+                            <div class="product__cart">
+                                <div class="product__flyers"></div>
+                                <p class="product__label">Печать листовок</p>
+                                <p class="product__desc">Плотностью 150 г/м2</p>
+                                <p class="product__price">От 100 руб</p>
+                                <input type="button" value="Заказать" class="product__button">
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide product__slide">
+                            <div class="product__cart">
+                                <div class="product__logo"></div>
+                                <p class="product__label">Визитные карточки</p>
+                                <p class="product__desc">Touche cover</p>
+                                <p class="product__price">От 100 руб</p>
+                                <input type="button" value="Заказать" class="product__button">
+                            </div>
+                            <div class="product__cart">
+                                <div class="product__flyer"></div>
+                                <p class="product__label">Печать листовок</p>
+                                <p class="product__desc">Плотностью 170 г/м2</p>
+                                <p class="product__price">От 100 руб</p>
+                                <input type="button" value="Заказать" class="product__button">
+
+                            </div>
+                            <div class="product__cart">
+                                <div class="product__flyers"></div>
+                                <p class="product__label">Печать листовок</p>
+                                <p class="product__desc">Плотностью 150 г/м2</p>
+                                <p class="product__price">От 100 руб</p>
+                                <input type="button" value="Заказать" class="product__button">
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide product__slide">
+                            <div class="product__cart">
+                                <div class="product__logo"></div>
+                                <p class="product__label">Визитные карточки</p>
+                                <p class="product__desc">Touche cover</p>
+                                <p class="product__price">От 100 руб</p>
+                                <input type="button" value="Заказать" class="product__button">
+                            </div>
+                            <div class="product__cart">
+                                <div class="product__flyer"></div>
+                                <p class="product__label">Печать листовок</p>
+                                <p class="product__desc">Плотностью 170 г/м2</p>
+                                <p class="product__price">От 100 руб</p>
+                                <input type="button" value="Заказать" class="product__button">
+
+                            </div>
+                            <div class="product__cart">
+                                <div class="product__flyers"></div>
+                                <p class="product__label">Печать листовок</p>
+                                <p class="product__desc">Плотностью 150 г/м2</p>
+                                <p class="product__price">От 100 руб</p>
+                                <input type="button" value="Заказать" class="product__button">
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prevv"></div>
+                    <div class="swiper-button-nextt"></div>
+
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="order">
+            <div class="order__container">
+                <h2 class="order__title">КАК СДЕЛАТЬ ЗАКАЗ</h2>
+                <div class="order__steps-order">
+                    <div class="order__step1">
+                        <svg width="108" height="116" class="order__svg" viewBox="0 0 108 116" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M49.7986 108C77.5241 108 100 85.6142 100 58C100 30.3858 77.5241 8 49.7986 8C31.6964 8 15.8319 17.5429 7 31.8532"
+                                stroke="#004DE1" stroke-width="15" />
+                        </svg>
+                        <div class="order__steps1">01.</div>
+                        <p class="order__step-desc">Выберете необходимую продукцию </p>
+                    </div>
+                    <div class="order__step2">
+                        <svg width="108" height="116" class="order__svg" viewBox="0 0 108 116" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M49.7986 108C77.5241 108 100 85.6142 100 58C100 30.3858 77.5241 8 49.7986 8C31.6964 8 15.8319 17.5429 7 31.8532"
+                                stroke="#004DE1" stroke-width="15" />
+                        </svg>
+                        <div class="order__steps2">02.</div>
+                        <p class="order__step-desc2">Нажмите «сделать заказ»</p>
+                    </div>
+                    <div class="order__step3">
+                        <svg width="108" height="116" class="order__svg" viewBox="0 0 108 116" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M49.7986 108C77.5241 108 100 85.6142 100 58C100 30.3858 77.5241 8 49.7986 8C31.6964 8 15.8319 17.5429 7 31.8532"
+                                stroke="#004DE1" stroke-width="15" />
+                        </svg>
+                        <div class="order__steps3">03.</div>
+
+                        <p class="order__step-desc3">Заполните данные и загрузите макет</p>
+                    </div>
+                    <div class="order__step4">
+                        <svg width="108" height="116" class="order__svg" viewBox="0 0 108 116" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M49.7986 108C77.5241 108 100 85.6142 100 58C100 30.3858 77.5241 8 49.7986 8C31.6964 8 15.8319 17.5429 7 31.8532"
+                                stroke="#004DE1" stroke-width="15" />
+                        </svg>
+                        <div class="order__steps4">04.</div>
+                        <p class="order__step-desc4">Мы свяжемся с Вами!</p>
+
+                    </div>
+                </div>
+                <div class="order__proposal">
+                    <div class="order__proposal-left">
+                        <p class="order__proposal-desc">Типография PrintMSK на Шаболовской специализируется на оказании
+                            широкого спектра полиграфических услуг для частных лиц и корпоративных клиентов.</p>
+                        <p class="order__proposal-text">Оперативное изготовление и высокое качество — главные принципы
+                            нашей компании!</p>
+                        <input type="button" value="Отправить заявку" class="order__button">
+                    </div>
+                    <div class="order__proposal-right">
+                        <img src="img/card.png" class="order__right-img" alt="Коммерческое предложение">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="partners">
+            <div class="partners__container">
+                <h2 class="partners__title">НАШИ КЛИЕНТЫ</h2>
+                <div class="swiper2">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+
+                            <img src="img/partners1.png" class="partners__img partners__signia" alt="partner Signia">
+                            <img src="img/partners2.png" class="partners__img partners__widex" alt="partner Widex">
+                            <img src="img/partners3.png" class="partners__img partners__farmina" alt="partner Farmina">
+                            <img src="img/partners4.png" class="partners__img partners__cirulnik"
+                                alt="partner Цирюльник">
+                            <img src="img/partners5.png" class="partners__img partners__cloud" alt="partner Cloud">
+                            <img src="img/partners6.png" class="partners__img partners__arthrex" alt="partner Arthrex">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/partners1.png" class="partners__img partners__signia" alt="partner Signia">
+                            <img src="img/partners2.png" class="partners__img partners__widex" alt="partner Widex">
+                            <img src="img/partners3.png" class="partners__img partners__farmina" alt="partner Farmina">
+                            <img src="img/partners4.png" class="partners__img partners__cirulnik"
+                                alt="partner Цирюльник">
+                            <img src="img/partners5.png" class="partners__img partners__cloud" alt="partner Cloud">
+                            <img src="img/partners6.png" class="partners__img partners__arthrex" alt="partner Arthrex">
+
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/partners1.png" class="partners__img partners__signia" alt="partner Signia">
+                            <img src="img/partners2.png" class="partners__img partners__widex" alt="partner Widex">
+                            <img src="img/partners3.png" class="partners__img partners__farmina" alt="partner Farmina">
+                            <img src="img/partners4.png" class="partners__img partners__cirulnik"
+                                alt="partner Цирюльник">
+                            <img src="img/partners5.png" class="partners__img partners__cloud" alt="partner Cloud">
+                            <img src="img/partners6.png" class="partners__img partners__arthrex" alt="partner Arthrex">
+
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-prevs"></div>
+                    <div class="swiper-button-nexts"></div>
+
+
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__container">
+                <div>
+                    <div class="footer__blok-footer">
+                        <svg width="234" height="45" class="footer__logo" viewBox="0 0 234 45" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_46_206)">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M17.6939 19.9558C22.9874 19.3287 24.971 17.4296 27.6941 15.0807C33.2928 10.2471 30.2528 4.99923 24.883 7.02264C24.2081 0.502785 12.3007 0.656611 17.8465 13.2053C18.5566 14.8145 19.2198 16.4948 17.6587 19.9263L17.6353 19.9677L17.6939 19.9558Z"
+                                    fill="#009EE3" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M27.7117 15.8441C25.0943 18.1101 22.9992 19.9264 17.7703 20.5476L17.7351 20.5536C17.6177 20.5713 17.4886 20.5595 17.3712 20.4944C17.0836 20.3465 16.9721 19.9915 17.1188 19.7016L17.1365 19.6602C17.8642 18.0569 18.0696 16.8795 18.0167 15.921C17.9639 14.9744 17.6412 14.2053 17.3066 13.4539C15.3113 8.93971 15.505 5.89869 16.6435 4.12969C17.2421 3.20082 18.093 2.62101 19.0379 2.34886C19.9651 2.08854 20.9745 2.12995 21.9194 2.44944C23.5039 2.98783 24.8948 4.30718 25.3467 6.25367C26.849 5.82769 28.1753 5.9401 29.1848 6.43708C29.889 6.78023 30.4406 7.3127 30.7986 7.97534C31.1507 8.63206 31.3151 9.4071 31.2446 10.2591C31.1097 11.8565 30.1472 13.7379 28.0697 15.5306L27.7117 15.8441ZM17.694 19.956C22.9875 19.3289 24.9711 17.4297 27.6941 15.0809C33.2928 10.2472 30.2528 4.9994 24.883 7.0228C24.2082 0.502948 12.3007 0.656774 17.8466 13.2054C18.5567 14.8147 19.2198 16.4949 17.6588 19.9264L17.6353 19.9678L17.694 19.956Z"
+                                    fill="black" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M17.6294 19.9145C17.0308 14.572 15.1529 12.5663 12.8348 9.81519C8.06357 4.15321 2.84635 7.19423 4.82995 12.6136C-1.64315 13.2644 -1.54338 25.2688 10.9333 19.731C12.5296 19.0211 14.2022 18.3584 17.6001 19.95L17.6412 19.9736L17.6294 19.9145Z"
+                                    fill="black" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M13.5858 9.79151C15.8276 12.4421 17.6175 14.5601 18.2103 19.8375V19.8553C18.2337 19.9795 18.2161 20.1156 18.1516 20.2398C17.999 20.5297 17.6469 20.6362 17.3593 20.4883L17.3358 20.4765C15.7396 19.731 14.5717 19.5121 13.6151 19.5654C12.6761 19.6127 11.9132 19.9381 11.162 20.2694C6.6784 22.2632 3.66192 22.0562 1.91307 20.9025C0.997565 20.299 0.422439 19.4352 0.158351 18.4827C-0.0998693 17.5479 -0.0529202 16.5244 0.269855 15.5777C0.809769 13.9862 2.12434 12.584 4.06099 12.1403C3.64432 10.6257 3.76169 9.28862 4.26053 8.271C4.60677 7.56104 5.13495 7.0049 5.79224 6.644C6.44366 6.28901 7.21832 6.12927 8.05753 6.20619C9.64206 6.34818 11.5024 7.3303 13.2747 9.43061L13.5506 9.76193C13.5682 9.77376 13.5799 9.77968 13.5858 9.79151ZM17.6293 19.9144C17.0307 14.5719 15.1527 12.5663 12.8346 9.81518C8.0634 4.1532 2.84618 7.19422 4.82978 12.6136C-1.64332 13.2644 -1.54355 25.2688 10.9332 19.731C12.5294 19.0211 14.202 18.3584 17.5999 19.9499L17.641 19.9736L17.6293 19.9144Z"
+                                    fill="black" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M17.5883 19.9737C12.2948 20.5949 10.3112 22.5 7.58817 24.8488C1.9895 29.6825 5.02944 34.9303 10.3934 32.9069C11.0683 39.4268 22.9757 39.2848 17.4299 26.7302C16.7198 25.1209 16.0566 23.4407 17.6177 20.0092L17.6411 19.9678L17.5883 19.9737Z"
+                                    fill="#FFED00" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M7.56479 24.0916C10.1822 21.8256 12.2773 20.0093 17.5121 19.394L17.5473 19.3881C17.6706 19.3703 17.7938 19.3821 17.9112 19.4472C18.1988 19.5951 18.3103 19.9501 18.1635 20.24L18.1401 20.2814C17.4124 21.8848 17.207 23.0621 17.2598 24.0206C17.3126 24.9672 17.6354 25.7363 17.9699 26.4877C19.9652 31.0019 19.7715 34.0429 18.633 35.8119C18.0344 36.7408 17.1835 37.3206 16.2386 37.5928C15.3114 37.8531 14.302 37.8117 13.3571 37.4922C11.7726 36.9538 10.3817 35.6344 9.92985 33.682C8.42748 34.108 7.10117 33.9956 6.09177 33.4986C5.38753 33.1555 4.83588 32.623 4.47789 31.9604C4.12577 31.3037 3.96145 30.5286 4.03188 29.6766C4.16686 28.0792 5.12931 26.1978 7.20681 24.4051L7.56479 24.0916ZM17.5884 19.9738C12.2949 20.595 10.3113 22.5001 7.58827 24.8489C1.98959 29.6826 5.02954 34.9304 10.3935 32.907C11.0684 39.4268 22.9758 39.2849 17.43 26.7303C16.7199 25.121 16.0567 23.4408 17.6178 20.0093L17.6412 19.9679L17.5884 19.9738Z"
+                                    fill="black" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M17.647 20.0211C18.2808 25.3577 20.1764 27.3515 22.5121 30.0849C27.3244 35.7113 32.524 32.6348 30.4934 27.2272C36.9607 26.5291 36.7787 14.5248 24.3431 20.1572C22.7468 20.879 21.0801 21.5534 17.6763 19.9915L17.6353 19.9678L17.647 20.0211Z"
+                                    fill="#E5007D" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M21.761 30.1143C19.5016 27.4815 17.694 25.3753 17.0661 20.1097L17.0602 20.0742C17.0367 19.9499 17.0544 19.8257 17.1189 19.7074C17.2656 19.4175 17.6177 19.3051 17.9053 19.453H17.9112C17.917 19.453 17.917 19.4589 17.9229 19.4589C19.5309 20.1925 20.7046 20.4055 21.6554 20.3463C22.5943 20.2872 23.3573 19.9618 24.1026 19.6245C28.5745 17.6011 31.591 17.7845 33.3457 18.9264C34.2671 19.524 34.848 20.3818 35.118 21.3344C35.3821 22.2692 35.341 23.2868 35.0241 24.2393C34.4959 25.8367 33.1931 27.2448 31.2623 27.7063C31.6907 29.2209 31.5792 30.558 31.0921 31.5756C30.7517 32.2856 30.2294 32.8476 29.5721 33.2085C28.9266 33.5694 28.1519 33.7351 27.3069 33.6641C25.7165 33.5339 23.8502 32.5696 22.0662 30.4811L21.761 30.1143ZM17.6471 20.0209C18.2809 25.3575 20.1765 27.3513 22.5122 30.0847C27.3245 35.7112 32.5241 32.6347 30.4935 27.2271C36.9608 26.529 36.7788 14.5246 24.3432 20.157C22.7469 20.8788 21.0802 21.5533 17.6764 19.9914L17.6353 19.9677L17.6471 20.0209Z"
+                                    fill="black" />
+                                <path
+                                    d="M134.838 23.3459C134.838 24.7244 135.125 25.748 135.706 26.4225C136.305 27.091 137.156 27.4223 138.247 27.4223C138.911 27.4223 139.509 27.3572 140.049 27.2271C140.296 27.162 140.513 27.091 140.701 27.0141C140.888 26.9372 141.053 26.8662 141.199 26.8011L141.387 32.3684C141.199 32.4335 140.929 32.4927 140.583 32.5577C140.231 32.6228 139.809 32.6938 139.31 32.7766C138.318 32.9009 137.25 32.966 136.117 32.966C133.159 32.966 130.947 32.2383 129.48 30.7769C127.989 29.357 127.244 27.1916 127.244 24.2748V9.42468C127.244 8.27691 127.52 7.16463 128.065 6.08193C128.611 4.99923 129.274 4.01711 130.049 3.14149C130.824 2.26586 131.645 1.54406 132.514 0.982005C133.382 0.419949 134.145 0.0945481 134.808 0.0117188L134.838 7.85684H141.041V13.3295H134.838V23.3459ZM116.974 32.4217V18.1987C116.974 18.0094 116.95 17.6603 116.909 17.1515C116.868 16.6427 116.739 16.1161 116.522 15.5718C116.305 15.0275 115.976 14.5424 115.53 14.1164C115.084 13.6904 114.462 13.4774 113.652 13.4774C112.848 13.4774 112.114 13.6253 111.451 13.9152C110.788 14.2051 110.213 14.6488 109.732 15.2464C109.245 15.838 108.869 16.5953 108.599 17.5124C108.329 18.4294 108.194 19.5003 108.194 20.7309V32.4217H100.594V15.3825C100.594 14.3589 100.817 13.365 101.263 12.3947C101.709 11.4244 102.296 10.5665 103.03 9.81516C103.763 9.06378 104.608 8.46031 105.571 7.99884C106.533 7.53736 107.543 7.31253 108.593 7.31253H116.686C117.883 7.31253 118.981 7.54327 119.973 7.99884C120.964 8.46031 121.809 9.06378 122.502 9.81516C123.194 10.5665 123.734 11.4244 124.116 12.3947C124.497 13.365 124.691 14.3589 124.691 15.3825V32.4217H116.974ZM90.7702 7.97517H98.1177V32.4217H98.1823H90.7702V7.97517ZM90.7702 1.43757H98.153V5.5317H90.7702V1.43757ZM87.0143 14.6311C85.5471 14.217 84.2619 14.1045 83.1527 14.3057C82.0494 14.5009 81.1222 14.9447 80.3769 15.6369C79.6316 16.3232 79.0682 17.2284 78.6867 18.3407C78.3052 19.4589 78.1116 20.7309 78.1116 22.1686V32.4217H70.5117V17.5065C70.5117 16.4652 70.7347 15.3884 71.1807 14.2879C71.6267 13.1816 72.2195 12.1581 72.9648 11.2055C73.7101 10.2589 74.5669 9.45427 75.5411 8.79755C76.5153 8.14083 77.5247 7.75035 78.5811 7.6261C79.8604 7.50186 81.0752 7.4072 82.2079 7.34212C82.7067 7.31845 83.1997 7.30662 83.6985 7.29479C84.1973 7.28295 84.6727 7.29479 85.1422 7.32437C85.6058 7.35395 86.0342 7.40128 86.4274 7.46636C86.8206 7.53144 87.1434 7.61427 87.3899 7.71485L87.0143 14.6311ZM48.9327 33.7647L48.9621 34.3563L48.9327 33.7647ZM50.5818 15.2287C49.502 16.477 48.9621 18.0744 48.9621 20.015C48.9621 21.1805 49.0971 22.2041 49.367 23.0797C49.6135 23.8074 49.995 24.5055 50.4879 25.1741C51.4386 26.5053 52.8002 27.1738 54.5608 27.1738C56.2392 27.1738 57.5772 26.5704 58.569 25.3634C59.5667 24.1565 60.0655 22.5413 60.0655 20.5179C60.0655 18.3288 59.5784 16.6072 58.6042 15.3588C57.63 14.0454 56.292 13.3887 54.596 13.3887C52.9704 13.3827 51.6323 13.998 50.5818 15.2287ZM41.3035 44.994H41.2742V7.97517H48.0407V12.1048C48.2872 11.7498 48.5865 11.3948 48.9269 11.0399C49.2672 10.6849 49.6194 10.3536 49.9832 10.04C50.3471 9.72642 50.7051 9.44835 51.0689 9.19394C51.4386 8.94546 51.7732 8.73247 52.0842 8.56681C53.5337 7.81543 55.1183 7.4427 56.8319 7.4427C60.3296 7.4427 63.0761 8.64372 65.0597 11.0399C67.0316 13.436 68.0117 16.6486 68.0117 20.6717C68.0117 24.4227 67.0316 27.4223 65.0597 29.6765C64.0679 30.842 62.9177 31.688 61.6266 32.2087C60.3355 32.7293 58.8566 33.0192 57.2016 33.0843C56.9141 33.108 56.6265 33.108 56.3566 33.102C56.0866 33.0902 55.8166 33.0665 55.5526 33.0251H55.5173H55.3941L54.9305 32.9305C54.8894 32.9305 54.8601 32.9246 54.8366 32.9127C54.8131 32.9009 54.7838 32.895 54.7427 32.895C54.4551 32.8121 54.1617 32.7234 53.8741 32.6287C53.5807 32.5341 53.2814 32.4157 52.9704 32.2678C52.6006 32.1022 52.2192 31.8833 51.8377 31.6111C51.4562 31.339 51.0807 31.0372 50.7051 30.7059C50.6405 30.6645 50.5759 30.6053 50.5055 30.5343C50.4292 30.4633 50.3588 30.3923 50.3001 30.3332C50.218 30.2681 50.1417 30.203 50.0654 30.132C49.995 30.061 49.9128 29.9782 49.8306 29.8954C49.7661 29.8303 49.7074 29.7652 49.6428 29.6942C49.5783 29.6232 49.5196 29.5404 49.455 29.4576C49.3494 29.3511 49.2614 29.2564 49.191 29.1617C49.1205 29.0671 49.0325 28.9665 48.9269 28.8659V35.6757C48.9269 36.4271 48.786 37.1844 48.5102 37.9416C48.2344 38.7049 47.8705 39.4267 47.4128 40.113C46.9609 40.7993 46.4562 41.4441 45.8987 42.0358C45.347 42.6274 44.7836 43.1481 44.2202 43.5859C43.651 44.0237 43.1169 44.3668 42.5946 44.6153C42.084 44.8638 41.6556 44.994 41.3035 44.994Z"
+                                    fill="black" />
+                                <path d="M234 0.946533H146.745V38.9889H234V0.946533Z" fill="black" />
+                                <path
+                                    d="M132.302 41.8169V39.4089H130.201C129.796 39.4089 129.509 39.5095 129.35 39.7225C129.186 39.9296 129.11 40.255 129.11 40.6987C129.11 41.0596 129.233 41.3377 129.474 41.5329C129.714 41.7281 130.066 41.8228 130.524 41.8228H132.302V41.8169ZM132.302 42.3908H130.471L129.157 44.7692H128.359L129.755 42.302C129.362 42.231 129.045 42.0476 128.805 41.7459C128.564 41.4442 128.447 41.0478 128.447 40.5508C128.447 39.9414 128.605 39.5036 128.922 39.2255C129.239 38.9474 129.708 38.8114 130.342 38.8114H132.96V44.7692H132.302V42.3908ZM120.019 38.8114H120.677V44.3195L124.039 38.8114H125.09V44.7692H124.433V39.3202L121.064 44.7692H120.025V38.8114H120.019ZM113.335 40.0952V43.3256H112.648C112.296 43.3256 112.02 43.2664 111.815 43.1599C111.61 43.0475 111.469 42.8759 111.381 42.6393C111.293 42.4026 111.252 42.095 111.252 41.7104C111.252 41.3258 111.293 41.0182 111.381 40.7815C111.469 40.5508 111.61 40.3733 111.815 40.2609C112.02 40.1485 112.296 40.0952 112.648 40.0952H113.335ZM113.998 40.0952H114.685C115.195 40.0952 115.553 40.2195 115.765 40.4739C115.976 40.7283 116.081 41.1365 116.081 41.7045C116.081 42.2724 115.976 42.6866 115.765 42.941C115.553 43.1954 115.195 43.3196 114.685 43.3196H113.998V40.0952ZM113.998 38.8114H113.335V39.5213H112.601C112.144 39.5213 111.768 39.5923 111.475 39.7343C111.181 39.8763 110.964 40.1071 110.817 40.4265C110.671 40.746 110.6 41.172 110.6 41.7045C110.6 42.2369 110.671 42.6629 110.817 42.9824C110.964 43.3019 111.181 43.5326 111.475 43.6746C111.768 43.8166 112.144 43.8876 112.607 43.8876H113.341V44.7632H114.004V43.8876H114.755C115.213 43.8876 115.583 43.8166 115.876 43.6746C116.169 43.5326 116.387 43.3019 116.533 42.9824C116.68 42.6629 116.75 42.2369 116.75 41.7045C116.75 41.1779 116.68 40.7519 116.533 40.4324C116.387 40.113 116.169 39.8763 115.876 39.7343C115.583 39.5923 115.207 39.5213 114.755 39.5213H114.004V38.8114H113.998ZM106.351 42.9647L105.043 39.3083L103.74 42.9647H106.351ZM102.396 44.7692L104.55 38.8114H105.5L107.701 44.7692H107.003L106.557 43.5445H103.575L103.1 44.7692H102.396ZM95.776 41.8583H97.3488C97.7302 41.8583 98.0295 41.8287 98.2349 41.7755C98.4403 41.7163 98.5988 41.6039 98.6927 41.4323C98.7925 41.2607 98.8453 41.0004 98.8453 40.6514C98.8453 40.1899 98.7749 39.8645 98.634 39.6811C98.4932 39.4977 98.2291 39.403 97.8535 39.403H95.776V41.8583ZM95.776 42.4381V44.7692H95.1187V38.8114H97.9356C98.2878 38.8114 98.5812 38.8705 98.8159 38.9889C99.0448 39.1072 99.2209 39.2965 99.3382 39.5509C99.4497 39.8053 99.5084 40.1248 99.5084 40.5212C99.5084 41.0004 99.4439 41.3791 99.3089 41.6631C99.1798 41.9411 98.9685 42.1423 98.681 42.2606C98.3934 42.3789 98.0061 42.4381 97.5248 42.4381H95.776ZM89.1209 44.7692V39.4148H92.114V38.8114H88.4578V44.7692H89.1209ZM80.9283 41.7932C80.9283 41.2193 80.9459 40.7815 80.987 40.4739C81.0281 40.1721 81.1103 39.9355 81.2276 39.7639C81.3509 39.5923 81.5269 39.4799 81.7558 39.4148C81.9847 39.3557 82.3192 39.3261 82.7476 39.3261C83.176 39.3261 83.5047 39.3557 83.7335 39.4148C83.9624 39.474 84.1385 39.5923 84.2617 39.758C84.385 39.9236 84.4613 40.1662 84.5023 40.4679C84.5434 40.7697 84.561 41.2134 84.561 41.7873C84.561 42.3553 84.5375 42.7931 84.4965 43.0948C84.4554 43.3966 84.3732 43.6332 84.2559 43.8048C84.1385 43.9704 83.9624 44.0888 83.7277 44.1479C83.4929 44.213 83.1702 44.2426 82.7476 44.2426C82.3309 44.2426 82.0023 44.213 81.7676 44.1479C81.5328 44.0829 81.3567 43.9704 81.2335 43.7989C81.1103 43.6332 81.0281 43.3906 80.987 43.083C80.9518 42.7872 80.9283 42.3553 80.9283 41.7932ZM80.2652 41.7932C80.2652 42.444 80.3004 42.9647 80.3767 43.3551C80.453 43.7397 80.5821 44.0414 80.7581 44.2603C80.9401 44.4793 81.1866 44.6272 81.4976 44.71C81.8086 44.7928 82.2253 44.8342 82.7417 44.8342C83.2641 44.8342 83.6807 44.7928 83.9976 44.71C84.3145 44.6272 84.561 44.4793 84.7371 44.2663C84.9131 44.0533 85.0422 43.7515 85.1185 43.3611C85.1948 42.9706 85.23 42.4499 85.23 41.7991C85.23 41.1424 85.1948 40.6218 85.1185 40.2313C85.0422 39.8408 84.919 39.5391 84.7371 39.3261C84.5552 39.1131 84.3145 38.9652 84.0035 38.8764C83.6925 38.7936 83.2758 38.7522 82.7594 38.7522C82.237 38.7522 81.8145 38.7936 81.5035 38.8764C81.1924 38.9593 80.9459 39.1072 80.764 39.3261C80.5821 39.5391 80.4588 39.8408 80.3826 40.2313C80.3063 40.6099 80.2652 41.1365 80.2652 41.7932ZM72.2252 38.8173H76.9905V44.7692H76.3332V39.4148H72.8766V44.7692H72.2193V38.8173H72.2252ZM63.6452 38.8114H64.3025V44.3195L67.6652 38.8114H68.7157V44.7692H68.0584V39.3202L64.6898 44.7692H63.6511V38.8114H63.6452ZM58.0231 44.7692V39.4148H56.0923V38.8114H60.6053L60.5994 39.4148H58.6862V44.7692H58.0231Z"
+                                    fill="black" />
+                                <path
+                                    d="M132.302 41.8169V39.4089H130.201C129.796 39.4089 129.509 39.5095 129.35 39.7225C129.186 39.9296 129.11 40.255 129.11 40.6987C129.11 41.0596 129.233 41.3377 129.474 41.5329C129.714 41.7281 130.066 41.8228 130.524 41.8228H132.302V41.8169ZM132.302 42.3908H130.471L129.157 44.7692H128.359L129.755 42.302C129.362 42.231 129.045 42.0476 128.805 41.7459C128.564 41.4442 128.447 41.0478 128.447 40.5508C128.447 39.9414 128.605 39.5036 128.922 39.2255C129.239 38.9474 129.708 38.8114 130.342 38.8114H132.96V44.7692H132.302V42.3908V42.3908ZM120.019 38.8114H120.677V44.3195L124.039 38.8114H125.09V44.7692H124.433V39.3202L121.064 44.7692H120.025V38.8114H120.019ZM113.335 40.0952V43.3256H112.648C112.296 43.3256 112.02 43.2664 111.815 43.1599C111.61 43.0475 111.469 42.8759 111.381 42.6393C111.293 42.4026 111.252 42.095 111.252 41.7104C111.252 41.3258 111.293 41.0182 111.381 40.7815C111.469 40.5508 111.61 40.3733 111.815 40.2609C112.02 40.1485 112.296 40.0952 112.648 40.0952H113.335V40.0952ZM113.998 40.0952H114.685C115.195 40.0952 115.553 40.2195 115.765 40.4739C115.976 40.7283 116.081 41.1365 116.081 41.7045C116.081 42.2724 115.976 42.6866 115.765 42.941C115.553 43.1954 115.195 43.3196 114.685 43.3196H113.998V40.0952ZM113.998 38.8114H113.335V39.5213H112.601C112.144 39.5213 111.768 39.5923 111.475 39.7343C111.181 39.8763 110.964 40.1071 110.817 40.4265C110.671 40.746 110.6 41.172 110.6 41.7045C110.6 42.2369 110.671 42.6629 110.817 42.9824C110.964 43.3019 111.181 43.5326 111.475 43.6746C111.768 43.8166 112.144 43.8876 112.607 43.8876H113.341V44.7632H114.004V43.8876H114.755C115.213 43.8876 115.583 43.8166 115.876 43.6746C116.169 43.5326 116.387 43.3019 116.533 42.9824C116.68 42.6629 116.75 42.2369 116.75 41.7045C116.75 41.1779 116.68 40.7519 116.533 40.4324C116.387 40.113 116.169 39.8763 115.876 39.7343C115.583 39.5923 115.207 39.5213 114.755 39.5213H114.004V38.8114H113.998ZM106.351 42.9647L105.043 39.3083L103.74 42.9647H106.351ZM102.396 44.7692L104.55 38.8114H105.5L107.701 44.7692H107.003L106.557 43.5445H103.575L103.1 44.7692H102.396V44.7692ZM95.776 41.8583H97.3488C97.7302 41.8583 98.0295 41.8287 98.2349 41.7755C98.4403 41.7163 98.5988 41.6039 98.6927 41.4323C98.7925 41.2607 98.8453 41.0004 98.8453 40.6514C98.8453 40.1899 98.7749 39.8645 98.634 39.6811C98.4932 39.4977 98.2291 39.403 97.8535 39.403H95.776V41.8583V41.8583ZM95.776 42.4381V44.7692H95.1187V38.8114H97.9356C98.2878 38.8114 98.5812 38.8705 98.8159 38.9889C99.0448 39.1072 99.2209 39.2965 99.3382 39.5509C99.4497 39.8053 99.5084 40.1248 99.5084 40.5212C99.5084 41.0004 99.4439 41.3791 99.3089 41.6631C99.1798 41.9411 98.9685 42.1423 98.6809 42.2606C98.3934 42.3789 98.0061 42.4381 97.5248 42.4381H95.776ZM89.1209 44.7692V39.4148H92.114V38.8114H88.4578V44.7692H89.1209V44.7692ZM80.9283 41.7932C80.9283 41.2193 80.9459 40.7815 80.987 40.4739C81.0281 40.1721 81.1103 39.9355 81.2276 39.7639C81.3509 39.5923 81.5269 39.4799 81.7558 39.4148C81.9847 39.3557 82.3192 39.3261 82.7476 39.3261C83.176 39.3261 83.5047 39.3557 83.7335 39.4148C83.9624 39.474 84.1385 39.5923 84.2617 39.758C84.385 39.9236 84.4613 40.1662 84.5023 40.4679C84.5434 40.7697 84.561 41.2134 84.561 41.7873C84.561 42.3553 84.5375 42.7931 84.4965 43.0948C84.4554 43.3966 84.3732 43.6332 84.2559 43.8048C84.1385 43.9704 83.9624 44.0888 83.7277 44.1479C83.4929 44.213 83.1702 44.2426 82.7476 44.2426C82.3309 44.2426 82.0023 44.213 81.7676 44.1479C81.5328 44.0829 81.3567 43.9704 81.2335 43.7989C81.1103 43.6332 81.0281 43.3906 80.987 43.083C80.9518 42.7872 80.9283 42.3553 80.9283 41.7932ZM80.2652 41.7932C80.2652 42.444 80.3004 42.9647 80.3767 43.3551C80.453 43.7397 80.5821 44.0414 80.7581 44.2603C80.9401 44.4793 81.1866 44.6272 81.4976 44.71C81.8086 44.7928 82.2253 44.8342 82.7417 44.8342C83.2641 44.8342 83.6807 44.7928 83.9976 44.71C84.3145 44.6272 84.561 44.4793 84.7371 44.2663C84.9131 44.0533 85.0422 43.7515 85.1185 43.3611C85.1948 42.9706 85.23 42.4499 85.23 41.7991C85.23 41.1424 85.1948 40.6218 85.1185 40.2313C85.0422 39.8408 84.919 39.5391 84.7371 39.3261C84.5552 39.1131 84.3145 38.9652 84.0035 38.8764C83.6925 38.7936 83.2758 38.7522 82.7594 38.7522C82.237 38.7522 81.8145 38.7936 81.5035 38.8764C81.1924 38.9593 80.9459 39.1072 80.764 39.3261C80.5821 39.5391 80.4588 39.8408 80.3826 40.2313C80.3063 40.6099 80.2652 41.1365 80.2652 41.7932ZM72.2252 38.8173H76.9905V44.7692H76.3332V39.4148H72.8766V44.7692H72.2193V38.8173H72.2252ZM63.6452 38.8114H64.3025V44.3195L67.6652 38.8114H68.7157V44.7692H68.0584V39.3202L64.6898 44.7692H63.6511V38.8114H63.6452ZM58.0231 44.7692V39.4148H56.0923V38.8114H60.6053L60.5994 39.4148H58.6862V44.7692H58.0231V44.7692Z"
+                                    stroke="black" stroke-width="0.5669" stroke-miterlimit="22.9256" />
+                                <path
+                                    d="M212.38 8.49585V17.1219H214.199L220.062 8.49585H227.398L219.393 19.7488L228.067 31.4396H220.543L214.205 22.4467H212.386V31.4396H206.318V8.49585H212.38ZM183.77 23.9731H189.598C189.598 24.7659 189.709 25.3398 189.932 25.7125C190.155 26.0853 190.525 26.3219 191.047 26.4343C191.564 26.5467 192.356 26.6 193.424 26.6C194.457 26.6 195.232 26.5527 195.742 26.4698C196.259 26.3752 196.634 26.1858 196.863 25.89C197.098 25.5942 197.209 25.1268 197.209 24.4938C197.209 23.8134 197.145 23.3341 197.01 23.0738C196.881 22.8135 196.623 22.6419 196.241 22.565C195.86 22.4881 195.126 22.4171 194.029 22.3461L192.696 22.2574C190.836 22.1154 189.451 21.9734 188.541 21.8314C187.638 21.6894 186.81 21.3995 186.077 20.9676C185.343 20.5357 184.78 19.8731 184.392 18.9678C184.005 18.0626 183.805 16.8498 183.805 15.3174C183.811 13.3236 184.187 11.8209 184.926 10.8092C185.672 9.79746 186.71 9.1289 188.048 8.8035C189.387 8.48402 191.176 8.31836 193.418 8.31836C195.596 8.31836 197.327 8.4781 198.63 8.79759C199.932 9.11707 200.93 9.74421 201.611 10.679C202.292 11.6197 202.638 12.9686 202.638 14.7495V15.6961H196.81C196.81 14.927 196.705 14.3827 196.482 14.0573C196.265 13.7259 195.936 13.5248 195.513 13.4479C195.085 13.371 194.381 13.3355 193.412 13.3355C192.368 13.3355 191.587 13.4064 191.077 13.5484C190.56 13.6904 190.232 13.8975 190.085 14.1578C189.938 14.4241 189.862 14.8027 189.862 15.2879C189.862 15.8736 189.956 16.2996 190.138 16.5717C190.32 16.8498 190.56 17.0214 190.871 17.1042C191.176 17.1811 191.669 17.2521 192.35 17.3113L194.868 17.4888C196.64 17.613 198.06 17.7964 199.111 18.0271C200.161 18.2638 200.995 18.6129 201.605 19.0803C202.215 19.5417 202.65 20.163 202.902 20.9558C203.148 21.7485 203.278 22.7898 203.278 24.0974C203.278 25.7776 203.154 27.097 202.914 28.0436C202.673 28.9902 202.221 29.7238 201.552 30.2445C200.889 30.7651 199.927 31.1201 198.665 31.3213C197.403 31.5224 195.654 31.623 193.418 31.623C191.652 31.623 190.196 31.5342 189.052 31.3627C187.902 31.197 186.939 30.8479 186.147 30.3332C185.361 29.8185 184.768 29.0553 184.369 28.0317C183.976 27.0023 183.77 25.6534 183.77 23.9731ZM158.136 13.8502L158.741 31.4396H152.672V8.49585H162.285L166.628 22.9022H166.839L170.965 8.49585H180.824V31.4337H174.756L175.36 13.8443H175.149L169.386 31.4337H164.14L158.312 13.8443H158.136V13.8502Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_46_206">
+                                    <rect width="234" height="45" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="footer__address">
+                        <div class="footer__wrapper-icon">
+                            <img src="img/address-icon.png" class="footer__icon-address" alt="Наш адрес"></div>
+                        <div>г. Москва, метро Шаболовская,ул. Шухова, д. 14, стр. 5, оф. 6 БЦ «Шухова 14»</div>
+                    </div>
+                    <div class="footer__tel">
+                        <div class="footer__wrapper-icon">
+                            <img src="img/tel.jpg" class="footer__icon-address" alt="Позвонить нам"></div>
+                        <div>8 (499) 391-54-41 8 (905) 765-94-25 </div>
+                    </div>
+                    <div class="footer__email">
+                        <div class="footer__wrapper-mail">
+                            <img src="img/mail.jpg" class="footer__icon-email" alt="Написать нам"></div>
+                        <a href="#" class="footer__mail">print.msk@mail.ru</a>
+                    </div>
+                    <a href="#" class="footer__politic">Политика обработки персональных данных</a>
+                    <p class="footer__copyright">© 2021, Принт-МСК. </p>
+                </div>
+                <ul class="footer__ul-services">
+                    <li class="footer__ul-link"><a class="footer__link" href="#">Печать на холсте</a></li>
+                    <li class="footer__ul-link"><a class="footer__link" href="#">Печать на пенокартоне</a></li>
+                    <li class="footer__ul-link"><a class="footer__link" href="#">Широкоформатная печать</a></li>
+                    <li class="footer__ul-link"><a class="footer__link" href="#">Печать на дисках</a></li>
+                    <li class="footer__ul-link"><a class="footer__link" href="#">Послепечатные работы</a></li>
+                    <li class="footer__ul-link"><a class="footer__link" href="#">Печать фотографий</a></li>
+                    <li class="footer__ul-link"><a class="footer__link" href="#">Идеи подарков</a></li>
+                    <li class="footer__ul-link"><a class="footer__link" href="#">Визитки</a></li>
+                </ul>
+                <ul class="footer__ul-work">
+                    <li class="footer__ul-link"><a class="footer__link" href="#">Изготовление печатей</a></li>
+                    <li class="footer__ul-link"><a class="footer__link" href="#">Пластиковые карты</a></li>
+                    <li class="footer__ul-link"><a class="footer__link" href="#">Магниты</a></li>
+                    <li class="footer__ul-link"><a class="footer__link" href="#">Календари</a></li>
+                    <li class="footer__ul-link"><a class="footer__link" href="#">Рекламная полиграфия</a></li>
+                    <li class="footer__ul-link"><a class="footer__link" href="#">Фотосувениры</a></li>
+                    <li class="footer__ul-link"><a class="footer__link" href="#">Сувенирная продукция</a></li>
+                </ul>
+                <ul class="footer__ul-worked">
+                    <li class="footer__ul-link"><a class="footer__link" href="#">Как сделать заказ</a></li>
+                    <li class="footer__ul-link"><a class="footer__link" href="#">Требования к макетам</a></li>
+                    <li class="footer__ul-link"><a class="footer__link" href="#">Оплата и доставка</a></li>
+                    <li class="footer__ul-link"><a class="footer__link" href="#">Контакты</a></li>
+                </ul>
+                <div class="footer__soc">
+                    <input type="button" value="Сделать заказ" class="footer__button">
+                    <div class="footer__soc-net">
+                        <svg class="footer__whatsapp" width="40" height="40" viewBox="0 0 40 40" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.09825 27.6561C5.2346 24.5144 4.58193 20.8005 5.2628 17.2117C5.94368 13.6228 7.91125 10.406 10.7961 8.16523C13.6809 5.92444 17.2845 4.81385 20.9302 5.04198C24.5759 5.27012 28.0129 6.8213 30.5959 9.40424C33.1788 11.9872 34.73 15.4242 34.9582 19.0699C35.1863 22.7156 34.0758 26.3192 31.835 29.2041C29.5942 32.0889 26.3774 34.0565 22.7886 34.7374C19.1998 35.4183 15.4858 34.7656 12.3441 32.902L12.3442 32.9018L7.16347 34.382C6.94913 34.4433 6.72231 34.4461 6.50651 34.3902C6.29072 34.3342 6.09381 34.2216 5.93618 34.064C5.77855 33.9064 5.66594 33.7095 5.61002 33.4937C5.55411 33.2779 5.55692 33.0511 5.61816 32.8367L7.09836 27.656L7.09825 27.6561Z"
+                                stroke="#00DA3D" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M23.7678 28.75C22.1233 28.7523 20.4944 28.4301 18.9747 27.8019C17.4549 27.1736 16.074 26.2517 14.9112 25.0888C13.7483 23.926 12.8264 22.5451 12.1981 21.0253C11.5699 19.5056 11.2477 17.8767 11.25 16.2322C11.2537 15.0747 11.7164 13.9659 12.5366 13.149C13.3568 12.3322 14.4675 11.874 15.625 11.875V11.875C15.8149 11.875 16.0014 11.9252 16.1656 12.0205C16.3298 12.1158 16.4659 12.2528 16.5601 12.4177L18.3868 15.6144C18.497 15.8072 18.5538 16.0259 18.5514 16.2479C18.5491 16.4699 18.4876 16.6873 18.3734 16.8777L16.9063 19.3228C17.6611 20.9977 19.0023 22.3389 20.6772 23.0937V23.0937L23.1223 21.6266C23.3127 21.5124 23.5301 21.4509 23.7521 21.4486C23.9741 21.4462 24.1928 21.503 24.3856 21.6132L27.5823 23.4399C27.7472 23.5341 27.8842 23.6702 27.9795 23.8344C28.0748 23.9987 28.125 24.1851 28.125 24.375V24.375C28.1217 25.5312 27.6621 26.6394 26.8462 27.4587C26.0303 28.2779 24.924 28.742 23.7678 28.75V28.75Z"
+                                stroke="#00DA3D" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg class="footer__in" width="28" height="28" viewBox="0 0 28 28" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0_150_10" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                                width="28" height="28">
+                                <rect width="28" height="28" fill="url(#pattern0)" />
+                            </mask>
+                            <g mask="url(#mask0_150_10)">
+                                <rect y="-1.33325" width="28" height="29.3333" fill="url(#paint0_linear_150_10)" />
+                            </g>
+                            <defs>
+                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                    <use xlink:href="#image0_150_10" transform="scale(0.00195312)" />
+                                </pattern>
+                                <linearGradient id="paint0_linear_150_10" x1="26.6667" y1="1.33341" x2="2.66667"
+                                    y2="24.0001" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0.529516" stop-color="#FF1F00" />
+                                    <stop offset="1" stop-color="#FFED00" />
+                                </linearGradient>
+                                <image id="image0_150_10" width="512" height="512"
+                                    xlink:href="data:image/png;base64,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" />
+                            </defs>
+                        </svg>
+                        <svg class="footer__vk" width="41" height="41" viewBox="0 0 41 41" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17.2689 22.4373C17.3076 20.7012 17.2689 16.9597 17.2689 15.6166C17.2689 14.2835 16.2568 12.6197 15.6924 11.9583H22.6985V19.4636C22.6985 20.1868 23.3738 20.6009 23.8904 20.1296C25.6764 18.5001 28.169 15.2053 29.3348 12.5746C29.4978 12.207 29.8388 11.9583 30.2213 11.9583H33.721C34.2635 11.9583 34.6862 12.4484 34.543 13.0042C33.9275 15.391 31.952 18.842 30.5177 21.1537C30.0463 21.9136 30.1032 22.9123 30.6897 23.5753C32.0823 25.1495 34.1954 27.4648 35.6533 29.2314C36.1584 29.8433 35.7441 30.7462 34.978 30.7462H30.6803C30.3957 30.7462 30.128 30.6083 29.9462 30.3756C28.7834 28.8861 26.9794 26.9234 25.1506 25.7237C24.776 25.5219 24.1649 25.2054 23.637 24.9609C23.1418 24.7313 22.6985 25.0941 22.6985 25.668V28.266C22.6985 30.3148 21.3168 30.7668 20.4798 30.7462C18.8841 30.8288 14.7624 29.5367 11.2845 25.1657C7.78146 20.7632 5.61153 14.7899 5.125 11.9583H11.1385C11.4012 13.5601 12.252 16.6003 14.2539 19.4636"
+                                stroke="#0B69D8" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <a href="#" class="footer__rules">Правила использования сайта </a>
+                    <p class="footer__create-site">Создание сайта - «АБВ сайт»</p>
+
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/burger.js" defer></script>
+    <script src="js/script.js" defer></script>
+</body>
+
+</html>
